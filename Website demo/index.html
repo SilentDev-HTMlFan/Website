@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refined Minimalist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3>Menu</h3>
+            <button class="close-sidebar">&times;</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-rss"></i> Feed</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> My Profile</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <header class="fade-in">
+            <button class="menu-button hover-grow">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="search-container">
+                <button id="search-button" class="hover-grow">
+                    <i class="fas fa-search"></i>
+                </button>
+                <input type="text" id="search-bar" placeholder="Search...">
+            </div>
+            <h1>Refined Minimal</h1>
+            <p class="subtitle">Elegance in simplicity</p>
+        </header>
+        
+        <main>
+            <section class="card slide-up">
+                <h2>Design Philosophy</h2>
+                <p>We believe in creating interfaces that are intuitive, accessible, and beautiful without unnecessary complexity.</p>
+            </section>
+            
+            <section class="card slide-up delay-1">
+                <h2>Our Approach</h2>
+                <p>Every element serves a purpose. Nothing is arbitrary in good design.</p>
+                <button id="cta-button" class="hover-grow">Explore More</button>
+            </section>
+        </main>
+        
+        <footer class="fade-in delay-2">
+            <p>© 2023 Refined Designs</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
